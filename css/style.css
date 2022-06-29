@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Quando&family=Roboto&family=Send+Flowers&display=swap');
+
+/* *{margin: 0;
+padding: 0;
+} */
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	background-color: #085492;
+    }
+
+footer{
+    height: 10vh;
+    background-color: #085492;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2{
+	font-family: 'Quando', serif;
+	font-size: 2.7rem;
+	margin: 15px;
+    }
+
+h5 {
+    font-family: 'Quando', serif;
+    color: #b22420;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+p{
+	font-family:'Roboto', sans-serif;
+	font-size: 1.5rem;
+	margin: 15px;
+    }
+
+nav{
+    background-color: #085492;
+	padding: 5px 25px;
+	opacity: .9;
+}
+
+li{
+    margin: 15px;
+}
+
+a[role="button"]{
+        font-family: 'Gentium Plus', serif;
+        font-size: 2rem;
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #b22420;
+        opacity: .8;
+        border-radius: 50%;
+        border: none;
+}
+
+
+
+.navlink{
+    font-family: 'Gentium Plus', serif;
+    color: #FFFFFF;
+    font-size: 2rem;        
+    text-decoration: none;
+    padding: 15px;
+    }
+
+.encabezado{
+        height: 60vh;  
+        background-position: center;
+        background-size: cover;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        animation-name: headeranim;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+
+    }
+    
+.encabezado__titulo{
+        font-family: 'Quando', serif;
+        color: #085492;
+        font-size: 3.5rem;
+        margin: 15px;
+        background-color: #fff;
+        text-shadow: 1px 1px #9acfdb;
+        opacity: 0.55;
+      }
+        
+.nosotros{
+    background-color: #9acfdb;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    
+.nosotros__deco{
+    height: 60px;
+    margin: 15px;
+    }
+
+.bg__color3{
+    background-color: #b22420;
+    }
+
+.bg__color5{
+    background-color: #ffc0cb;
+    }
+.bg__white{
+    background-color: #FFFFFF;
+    }
+
+.bg__transparent{
+    background-color: transparent;
+}
+
+.h__40{
+    height: 40vh;
+}
+
+.comentarios__marco{
+    height: 80%;
+	border: 2px solid #ffc152;
+	text-align: center;
+	padding: 60px;
+	margin: 20px;
+}
+
+.comentarios__bandoneon{
+	max-height: 30%;
+	z-index: 59;
+	margin: 15px auto -30px;
+}
+
+.catering{
+    height: 60vh;
+	width: 100%;
+	background-image: url(../img/bgcatering_.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.catering__contenido{
+	width: 90%;
+	text-align: left;
+    background-color: #000000c7;
+	margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.catering__titulo{
+	font-family: 'Send Flowers', cursive;
+	font-size: 6rem;
+	color: #ffc152;
+	position: relative;
+	z-index: 69;
+}
+
+.catering__texto{
+	text-align: center;
+	font-size: 3rem;
+    color: white;
+}
+
+.boton__catering{
+	background-color: #ffc152 !important;
+	padding: 1.8%;
+	margin-bottom: 10px;
+    position: relative;
+    align-self: flex-end;
+    margin-right: -15px;
+    opacity: 1;
+}
+
+.bg__eventos   {
+	background-image: url(../img/bgeventos.png);
+	background-position: center;
+	background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eventos{
+	display: flex;
+	justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.eventos__contenido{
+	width: 20%;
+	margin: 15px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.lowcontact{
+    height: 10vh;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+}
+
+
