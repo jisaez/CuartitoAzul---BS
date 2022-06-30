@@ -298,3 +298,66 @@ a[role="button"]{
 	flex-wrap: nowrap;
 }
 
+/* PAGE NOSOTROS */
+
+.nosotros__img{
+	border-radius: 60%;
+	border: 10px double #ffc152;
+
+}
+
+/* PAGE CONTACTO */
+
+.input__texto{
+	width: 40rem;
+	height: 20rem;
+
+}
+
+.boton__contacto{
+    font-family: 'Gentium Plus', serif;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #b22420;
+    opacity: .8;
+    border: none;
+
+}
+
+.input__boton{
+	opacity: 1;
+	margin: 5px 5px 20px 40px;
+}
+
+/* PAGE CONTACTO */
+
+.page__contacto{
+    height: 75vh;
+}
+
+fieldset{
+	margin: 20px;
+	/* max-width: 60%; */
+	text-align: left;
+	border-style: double;
+	border-color:  #b22420;
+	font-family: 'Roboto', sans-serif;
+	color: #085492;
+	font-size: 2rem;
+	padding: 10px;
+}
+
+label{
+    font-family: 'Quando', serif;
+    color: #b22420;
+    font-size: 2.5rem;
+    font-weight: 900;
+	
+ } 
+
+
+
+
+
+

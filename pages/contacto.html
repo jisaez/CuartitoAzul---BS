@@ -1,85 +1,83 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contacto</title>
-	<link rel="shortcut icon" href="../img/favicon.png">
-	<link rel="stylesheet" type="text/css" href="../css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animaciones.css">
+
+    <link rel="shortcut icon" href="img/favicon.png">
+    <title>Cuartito Azul - Restaurante Argentino</title>
 </head>
 
 <body>
-	<div class="backColor--white">
-		<nav class="nav__page">
-			<a href="../index.html"> 
-				<img src="../img/logoblanco.png" alt="logo de Cuartito Azul">
-			</a>
-
-			<ul>
-				<li> <a href="catering.html">Catering</a> </li>
-				<li> <a href="menu.html">Menu</a> </li>
-				<li> <a href="sobre-nosotros.html">Nosotros</a> </li>
-				<li> <a href="contacto.html">Contacto</a> </li>
-			</ul>
-		</nav>
-		
-		<form action="contacto_web.php">
-			<fieldset>
-				<legend>Info personal</legend>	
-					<label for="name">Nombre</label>
-					<input type="text" id="name" placeholder="Tu nombre y apellido">
-					<br> <br>
-					<label for="email">e-mail</label>
-					<input type="text" id="email" placeholder="tu@mail.com">
-					<br><br>
-					<label for="phone">Movil</label>
-					<input type="text" id="phone" placeholder="+52 12345678">
-				
-				<br><br>
-
-				<legend>Vives en</legend>
-					<label for="ElPaso">El Paso</label>
-					<input type="radio" id="ElPaso" name="domicilio" value="El Paso">
-					<label for="CdJrz">Ciudad Juarez</label>
-					<input type="radio" id="CdJrz" name="domicilio" value="Ciudad Juarez">
-					<label for="Otro">Otro</label>
-					<input type="radio" id="Otro" name="domicilio" value="Otro">
-				
-				<br><br>	
-
-				<legend>Probaste la comida de Cuartito Azul?</legend>
-					<label for="local">He consunido en el local</label>
-					<input type="checkbox" id="local" value="He consumido en el local"> 
-					<br>
-					<label for="retiro">He pedido para retirar</label>
-					<input type="checkbox" id="retiro" value="He pedido para retirar"> 
-					<br>
-					<label for="aun no">Aun no conozco</label>
-					<input type="checkbox" id="aun no" value="Aun no">
-			</fieldset>
-
-			<fieldset>
-				<legend>Sobre tu mensaje</legend>
-					<label>Motivo</label>
-					<select>
-					<option value="catering">Catering</option>
-					<option value="eventos">Eventos</option>
-					<option value="otro">Otro</option>
-					</select> <br>
-					<label for="mensaje">Tu mensaje</label> <br>
-					<input class="input__texto" type="text" name="mensaje">
-			</fieldset>
-			
-			<input class="boton input__boton" type="reset" value="Cancelar">
-			<input class="boton input__boton" type="submit" value="Enviar">
-		</form>
-	</div>
+	<!-- inicia NAV -->
+	<nav class="navbar navbar-expand-md sticky-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="../index.html">
+				<img src="../img/logoblanco.png" alt="Logo de Cuartito Azul">
+			</a> 
+		  <button class="bg__white navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ms-auto mb-2 mb-md-0">
+			  <li class="nav-item">
+				<a class="nav-link navlink" href="catering.html">Catering</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link navlink" href="menu.html">Menú</a>
+			  </li>
 	
-	<footer class="footer__page">
-		<a class="footerlogo" href="index.html">
-			<img  src="../img/isologo.png" alt="isologo Cuartito Azul">
-		</a>
-	</footer>
+			<li class="nav-item">
+			  <a class="nav-link navlink" href="nosotros.html">Nosotros</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link navlink" href="contacto.html">Contacto</a>
+			  </li>
+			  
+			 </ul>
+		  </div>
+		</div>
+	</nav>
+	<!-- FIN NAV -->
 
+
+	<main class="page__contacto bg__white container-fluid ">
+		<div class="row h-100">	
+			<div class="col-9 h-25 mb-3 d-flex flex-column align-items-start justify-content-center">
+				<label for="exampleFormControlInput1" class="form-label">E-Mail</label>
+				<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="tu@mail.com">
+			</div>
+
+			<div class="col-9 h-75 mb-3">
+				<label for="exampleFormControlTextarea1" class="form-label">Aqui va tu mensaje</label>
+				<textarea class="form-control" id="exampleFormControlTextarea1" rows="20"></textarea>
+				<input class="m-3 boton__contacto input__boton rounded-pill" type="reset" value="Cancelar">
+				<input class="m-3 boton__contacto input__boton rounded-pill" type="submit" value="Enviar">
+
+			</div>
+
+		
+				
+
+
+		</div>
+	</main>
+
+
+	
+    <footer>
+		
+		<p class="col-4 d-inlineblock text-white alingn-middle text-end">Argentina</p>
+		<a class="col-4 d-flex" href="../index.html">
+			<img class="m-auto h-100" src="../img/logofooter.png" alt="isologo Cuartito Azul">
+		</a>
+		<p class="col-4 text-white text-start" >Ciudad Juárez</p>	
+
+</footer>
+	<script src="../js/bootstrap.min.js"></script> 
 </body>
 </html>
