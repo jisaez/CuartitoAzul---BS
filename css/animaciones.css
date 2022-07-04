@@ -4,3 +4,8 @@
     66%{background-image: url(../img/header3.jpg);}
     100%{background-image: url(../img/header1.jpg);}
 }
+
+@keyframes animopacity{
+    from{opacity: 0.1;}
+    to{opacity: 1;}
+}

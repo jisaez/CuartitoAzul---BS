@@ -22,6 +22,8 @@ footer{
     margin-bottom: 0%;
 }
 
+
+
 h2{
 	font-family: 'Quando', serif;
 	font-size: 2.7rem;
@@ -96,6 +98,9 @@ a[role="button"]{
         background-color: #fff;
         text-shadow: 1px 1px #9acfdb;
         opacity: 0.55;
+        animation-name: animopacity;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;    ;
       }
         
 .nosotros{
@@ -120,7 +125,8 @@ a[role="button"]{
     }
 
 .bg__color5{
-    background-color: #ffc0cb;
+    background: linear-gradient(to top, #ffc0cb, #FFFFFF);
+    /* background-color: #ffc0cb; */
     }
 .bg__white{
     background-color: #FFFFFF;
@@ -303,7 +309,15 @@ a[role="button"]{
 .nosotros__img{
 	border-radius: 60%;
 	border: 10px double #ffc152;
+    animation-name: animopacity;
+    animation-duration: 4s;
 
+}
+
+.nosotros__img:hover{
+    transform: scale(1.014);
+    border-radius: 60%;
+    border:none;
 }
 
 /* PAGE CONTACTO */
