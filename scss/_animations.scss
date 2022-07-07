@@ -9,3 +9,10 @@
     from{opacity: 0.1;}
     to{opacity: 1;}
 }
+
+@mixin animationset {
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}

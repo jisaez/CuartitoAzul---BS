@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/animaciones.css">
 
     <link rel="shortcut icon" href="img/favicon.png">
     <title>Cuartito Azul - Restaurante Argentino</title>
@@ -18,33 +17,33 @@
         <a class="navbar-brand" href="index.html">
             <img src="img/logoblanco.png" alt="Logo de Cuartito Azul">
         </a> 
-      <button class="bg__white navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link navlink" href="pages/catering.html">Catering</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link navlink" href="pages/menu.html">Menú</a>
-          </li>
+        <button class="bg__white navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link navlink" href="pages/catering.html">Catering</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navlink" href="pages/menu.html">Menú</a>
+                </li>
 
-        <li class="nav-item">
-          <a class="nav-link navlink" href="pages/nosotros.html">Nosotros</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link navlink" href="pages/contacto.html">Contacto</a>
-          </li>
-          
-         </ul>
-      </div>
+                <li class="nav-item">
+                    <a class="nav-link navlink" href="pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navlink" href="pages/contacto.html">Contacto</a>
+                </li>
+            
+             </ul>
+        </div>
     </div>
-</nav>
+    </nav>
 <!-- FIN NAV -->
 
-    <header class="encabezado">
-        <h1 class="shadow-lg encabezado__titulo">Un rinconcito argentino en Ciudad Juárez</h1>
+    <header>
+        <h1 class="shadow-lg">Un rinconcito argentino en Ciudad Juárez</h1>
         <a role="button" href="pages/menu.html" class="rounded-pill btn text-nowrap col-3 mx-auto btn-primary">Ver menú</a>         
     </header>
 
@@ -62,8 +61,7 @@
     <section class="card bg__white d-flex flex-row">
         <div class="col-6 card-body text-center d-flex flex-column justify-content-around m-5 bg__color5">
             <h2 class="card-title">Cortes, empanadas, pizzas y pastas</h2>
-          
-          <p class="card-text">Si quieres probar deliciosos platillos cocinados al mejor estilo argentino, somos el lugar indicado.
+            <p class="card-text">Si quieres probar deliciosos platillos cocinados al mejor estilo argentino, somos el lugar indicado.
             Visitanos y prueba la mejor comida argentina en Ciudad Juarez. <br><br> Te invitamos a conocer nuestro menú.</p>
             <a role=button class="mb-3 rounded-pill btn text-nowrap col-3 mx-auto btn-primary" href="pages/menu.html">Menú</a> 
         </div>
@@ -84,7 +82,7 @@
             <p class="text-white m-3 d-block">"Me super encanta,  la comida deliciosa y el ambiente tranquilo lo recomiendo si quieres ir a platicar y estar en ambiente agradable."</p>
             </div>
             <div class="carousel-item">
-             <p class="text-white m-3 d-inlineblock">"Time has passed and this place is still great. The best tasting argentinian empanadas are here."</p>
+            <p class="text-white m-3 d-inlineblock">"Time has passed and this place is still great. The best tasting argentinian empanadas are here."</p>
             </div>
             <div class="carousel-item h-75">
                 <p class="text-white m-3 d-block">"Excelente ambiente, con la atención, te hacen sentir parte de ellos.
@@ -99,20 +97,20 @@
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
         </button>
-      </div>
+    </div>
     <!--======FIN COMENTARIOS======-->
 
-    <section class="catering">
-		<div class="catering__contenido">
-			<h4 class="catering__titulo">Catering</h4>
-			<p class="catering__texto">Si tienes un evento, no te pierdas nuestro exlusivo servicio de catering!</p>
+    <section id="sec_catering">
+		<div>
+			<h4>Catering</h4>
+			<p>Si tienes un evento, no te pierdas nuestro exlusivo servicio de catering!</p>
             <a role="button" href="pages/contacto.html" class="btn ms-auto boton__catering">Solicita tu presupuesto</a>
         </div>
     </section>
@@ -121,24 +119,23 @@
 
     <section class="bg__eventos">
         <div id="carouselExampleSlidesOnly" class="h-100 col-6 m-3 align-items-center carousel slide" data-bs-ride="carousel">
-         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="img/eventos1.jpeg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="img/eventos2.jpeg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-                <img src="img/eventos3.jpeg"class="d-block w-100" alt="...">
-            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/eventos1.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/eventos2.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/eventos3.jpeg"class="d-block w-100" alt="...">
+                </div>
             </div>
         </div>
 
         <article class="col 6 m-3 eventos">  
                 <img class="h-25 eventos__contenido--deco" src="img/eventosdeco.svg">	
-               
+            
                 <h5>EVENTOS</h5>
-
                 <p class="text-center">Mensualmente manejamos diferentes tipos de eventos para traerte toda la cultura Argentina...</p>
                 <a role="button" href="pages/contacto.html" class="w-100 d-inlineblock mb-3 rounded-pill btn text-nowrap col-3 mx-auto btn-primary"> Quiero saber más </a>    
         </article>    
@@ -153,9 +150,9 @@
     <section class="row lowcontact d-flex">
 		
         <div class="col-6 h-100 d-flex align-items-center justify-content-end">
-            <h5 class="h-50 text-center">Siguenos!</h5>
+            <p class="h-50 text-center">Siguenos!</p>
         </div>
-       
+        
         <div class="col-6 h-100 align-items-center justify-content-start">
             <a href="https://www.facebook.com/cuartitoazuljrz" target="_blank">
 				<img class="h-50 m-3" src="img/logofacebook.svg" alt="logo de facebook"> </a>

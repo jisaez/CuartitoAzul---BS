@@ -1,0 +1,44 @@
+nav{
+    background-color: $color1;
+	padding: 5px 25px;
+	opacity: .9;
+    div{
+        a{
+            img{
+                width: 250px;
+                @media (max-width: 380px){
+                    width: 200px;
+                }
+            }
+
+        }
+        button{
+            background-color: $color_w;
+        }
+        div{
+            ul{
+                li{
+                    margin: 15px;
+                    a{
+                        font-family: $titleFont;
+                        color: $color_w;
+                        font-size: $textSM;        
+                        text-decoration: none;
+                        padding: 15px;
+                    }
+                    
+                    
+                }
+            }
+        }
+    }   
+}
+
+
+.navlink{
+    font-family: $titleFont;
+    color: $color_w;
+    font-size: $textSM;        
+    text-decoration: none;
+    padding: 15px;
+    }
