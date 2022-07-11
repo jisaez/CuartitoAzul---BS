@@ -80,7 +80,7 @@ footer {
 p {
   font-size: 2rem; }
 
-a[role="button"] {
+a[role="button"], #sec_catering div a {
   font-family: "Quando", serif;
   font-size: 2rem;
   text-decoration: none;

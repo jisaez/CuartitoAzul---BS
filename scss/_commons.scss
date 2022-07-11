@@ -20,17 +20,17 @@
     background-color: transparent;
 }
 .h__40{
-    height: 40vh;
+    height: map-get($map: $heights, $key:'h40');
 }
 
 body{
 	background-color: $color1;
-    min-height: 100vh;
+    min-height: map-get($map: $heights, $key:'h100');
     max-width: 100vw;
 }
 
 footer{
-    height: 10vh;
+    height: map-get($map: $heights, $key:'h10');
     background-color: #085492;
     display: flex;
     flex-direction: row;
@@ -56,7 +56,7 @@ a[role="button"]{
 // ======== INDEX =====
 
 header{
-    height: 60vh;  
+    height: map-get($map: $heights, $key:'h60');  
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -117,7 +117,7 @@ header{
 // SEC CATERING ========
 
 #sec_catering{
-    height: 60vh;
+    height: map-get($map: $heights, $key:'h60');
 	width: 100%;
 	background-image: url(../img/bgcatering_.jpg);
     background-size: cover;
@@ -145,6 +145,7 @@ header{
             color: $color_w;
         }
         a{
+            @extend a[role="button"];
             background-color: $color4 !important;
             padding: 1.8%;
             margin-bottom: 10px;
@@ -188,7 +189,7 @@ header{
 // Sec MAPS
 
 .lowcontact{
-    height: 10vh;
+    height: map-get($map: $heights, $key:'h10');
 	background-color: #fff;
 	display: flex;
 	justify-content: space-around;

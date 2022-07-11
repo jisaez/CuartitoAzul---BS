@@ -42,3 +42,14 @@ opacity: .8;
 border-radius: 50%;
 border: none;
 }
+
+// MAPS 4 heights
+
+$heights:(
+    'h100':100vh,
+    'h80':80vh,
+    'h75':75vh,
+    'h60':60vh,
+    'h40':40vh,
+    'h10':10vh,
+);

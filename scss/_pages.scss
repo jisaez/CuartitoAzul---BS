@@ -1,7 +1,7 @@
 /*page CATERING*/
 
 #page__catering{
-    height: 80vh;
+    height: map-get($map: $heights, $key:'h80');
 	background-image: url(../img/bgcatering.jpg);
     background-size: cover;
     background-position: center;
@@ -43,7 +43,7 @@
 /* PAGE MENU */
 
 .page__menu{
-    height: 100vh;
+    height: map-get($map: $heights, $key:'h100');
     background-color: #9acfdb;
 }
 
@@ -108,7 +108,7 @@
 /* PAGE CONTACTO */
 
 .page__contacto{
-    height: 75vh;
+    height: map-get($map: $heights, $key:'h75');
 }
 
 fieldset{
